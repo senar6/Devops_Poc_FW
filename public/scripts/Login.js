@@ -21,6 +21,7 @@ app.controller('loginCtrl', function($scope, $http) {
 		    }
 		    
 		}, function myError(response) {
+                    $('.hcf-div-imp').show();
 		    console.log(response.statusText);
 		});
     }
