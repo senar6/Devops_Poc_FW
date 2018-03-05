@@ -2,7 +2,7 @@
 var app = angular.module('Login', []);
 app.controller('loginCtrl', function($scope, $http) {
     $scope.btnLoginclick = function () {
-		var url = 'http://52.160.97.191:18080/SpringMVCHibernate/authenticate'
+		var url = 'http://40.86.185.58:18080/SpringMVCHibernate/authenticate'
 		var param = {};
         param.user = $('#username').val();
 		param.password = $('#password').val();
